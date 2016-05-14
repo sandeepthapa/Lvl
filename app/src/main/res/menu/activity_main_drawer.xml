@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+
+            android:title="Community Nepal" />
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_slideshow"
+
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_manage"
+
+            android:title="Website" />
+    </group>
+
+    <item android:title="Book">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Flight" />
+            <item
+                android:id="@+id/nav_send"
+
+                android:title="Vehicle" />
+            <item
+                android:id="@+id/adventurous"
+
+                android:title="Adventourous" />
+            <item
+                android:id="@+id/Trek"
+
+                android:title="Trekking" />
+            <item
+                android:id="@+id/Tour"
+
+                android:title="Tour" />
+        </menu>
+    </item>
+
+</menu>
